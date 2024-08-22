@@ -32,9 +32,7 @@
 == Correlated Decoding @Cain2024CorrelatedDO
 
 - High level idea
-- Threshold improved
-  1) MWPM without Correlated Decoding: 
-decoding can be “helped” with this assumption: threshold goes from 5.1% to 10.3% if there is indeed correlated error. (threshold are the same otherwise) 
+#figure(image("pics/correlated_threshold.png",width: 45%), caption: [In Simulation with Correlated Error, threshold is improved from 5.1% to 10.3%])
 
 Correlated Syndrom error: threshold also lowered
 
