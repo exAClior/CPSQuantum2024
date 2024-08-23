@@ -28,7 +28,7 @@
 == Resource Estimation @Beverland2022AssessingRT
 
 - Fault-tolerance requires too much resource 
-#figure( image("pics/resourceestimation.png", width: 70%),caption: [Resource Estimation for Various Application and Hardware Quality.])
+#figure(image("pics/resourceestimation.png", width: 70%),caption: [Resource Estimation for Various Application and Hardware Quality.])
 
 == Correlated Decoding @Cain2024CorrelatedDO
 
@@ -70,15 +70,39 @@ Quantum mechanics + causal order violates some inequality but not maximal (algeb
 
 = Constant-Overhead Fault-Tolerant Quantum Computing With Reconfigurable Atom Arrays
 
-Connectivity of physical qubits in code limits the number of logical qubit you could represent   https://arxiv.org/abs/0909.5200 
-achieve high encoding rates and good code distance scaling 
-involves nonlocal operations that require long-range connectivity between qubits 
-LDPC code from the product of two classical code (Hypergraph product code 
-qLDPC as Quantum Memory, Surface Code for logical gate (why you need to convert to Surface code? because it has space time cost of kd^3 , what about surface code? ) 
-surface code may be as good a code as you could get https://arxiv.org/abs/0909.5200 if you only allow nearest neighbor connection 
-https://arxiv.org/pdf/2308.07915 what kind of error did they consider in qLDPC code simulation? 
+== Summary
+- "Practical implementation of product qLDPC code by (globally) rearranging atoms"
+- "High-threshold, constant-space-overhead memory under circuit-level fault-tolerant design"
+- "Fault-tolerant commputation via teleportation to topological codes"
+- "qLDPC-based FT quantum computer"
+
+== qLDPC is necessary
+
+- For surface code $[[n,k,d]]$, "$n/k = d^2$"
+- "Connectivity constrains quantum code" @Bravyi2009TradeoffsFR
+- "High-rate qLDPC code: constant space overhead" $[[n,Theta(n),Theta(n^(alpha>=1/2))]]$ @Gottesman2013FaulttolerantQC@PRXQuantum.2.040101@Panteleev2021AsymptoticallyGQ
+- Con of qLDPC
+  - "requires non-local and complicated connection"
+  - "Large code size & low threshold" 
+  - #link("https://www.youtube.com/watch?v=5tfj4ArAJa0")[QIP2024 Talk]
+
+== Example of qLDPC code: Hypergraph product Code @Xu2023ConstantoverheadFQ
+
+- "The HGP code is constructed from two classical LDPC codes"
+#figure(image("pics/hypergraph_product_code.png", width: 50%))
+
+#figure(image("pics/qldpc_performance.png",width: 50%))
+
+== Logical Operation with qLDPC code @Xu2023ConstantoverheadFQ
+- "performingfault-tolerant logical operations and perform the first numerical simulation of logical gate performance on qLDPC codes"
+- "We teleport the logical information between the qLDPC memory and ancillary topological codes using a measurement-based circuit"
+- "prescribed logical measurements are implemented using lattice surgery"
+- "Universal logical operations can then be performed in the topological codes using standard techniques"
+- "To use these LDPC codes for quantum computation,
+ one must be able to fault-tolerantly implement a universal set of protected logic gates. While Ref. [32] establishes a method to perform quantum computation using faulttolerant gate teleportation [39], the cost associated with the distillation of the requisite resource state [40] is not understood well in the practical regime of interest" @Cohen2021LowoverheadFQ
 
 == Recording of Talk 
+
 - #link("https://www.youtube.com/watch?v=5tfj4ArAJa0")[QIP2024 Talk]
 - #link("https://www.youtube.com/watch?v=rBuKW87xrag")[QEC2023 Talk]
 
