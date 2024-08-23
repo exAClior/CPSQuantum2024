@@ -56,10 +56,10 @@
 
 == Summary @Huang2021QuantumIS
 - "a quantum processor with such an instruction set, designing an instruction by replacing iSWAP with its matrix square root SQiSW can both reduce the gate error and improve compilation capabilities substantially" 
+
 - "taking only roughly half of the time of iSWAP, the SQiSW gate is expected to be implemented with much higher fidelity. Moreover, it has superior compilation capabilities than iSWAP in the task of compiling arbitrary two-qubit gates. An iFRB experiment, which can benchmark non-Clifford gates, on our capacitively coupled fluxonium quantum processor shows the gate error is reduced by 41% and the Haar random two-qubit gate error is reduced by 50% compared to iSWAP on the same chip"
 
 - #link("https://ymsc.tsinghua.edu.cn/info/1057/3741.htm")[Online Recoding of Talk]
-
 
 = The Ultimate Boundaries of Quantum Causality
 Indefinite Causal order used to improve metrology with continuous variable system https://www.nature.com/articles/s41567-023-02046-y 
@@ -69,15 +69,19 @@ What is the boundary of violation of all possible experiment and all possible or
 Quantum mechanics + causal order violates some inequality but not maximal (algebraically) 
 
 = Constant-Overhead Fault-Tolerant Quantum Computing With Reconfigurable Atom Arrays
+
 Connectivity of physical qubits in code limits the number of logical qubit you could represent   https://arxiv.org/abs/0909.5200 
 achieve high encoding rates and good code distance scaling 
 involves nonlocal operations that require long-range connectivity between qubits 
 LDPC code from the product of two classical code (Hypergraph product code 
 qLDPC as Quantum Memory, Surface Code for logical gate (why you need to convert to Surface code? because it has space time cost of kd^3 , what about surface code? ) 
-https://www.youtube.com/watch?v=5tfj4ArAJa0
-https://www.youtube.com/watch?v=rBuKW87xrag 
 surface code may be as good a code as you could get https://arxiv.org/abs/0909.5200 if you only allow nearest neighbor connection 
 https://arxiv.org/pdf/2308.07915 what kind of error did they consider in qLDPC code simulation? 
+
+== Recording of Talk 
+- #link("https://www.youtube.com/watch?v=5tfj4ArAJa0")[QIP2024 Talk]
+- #link("https://www.youtube.com/watch?v=rBuKW87xrag")[QEC2023 Talk]
+
 = Entanglement Renormalization and Tensor Network Representation of Chern Insulator
 
 == Summary
