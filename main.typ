@@ -62,11 +62,23 @@
 - #link("https://ymsc.tsinghua.edu.cn/info/1057/3741.htm")[Online Recoding of Talk]
 
 = The Ultimate Boundaries of Quantum Causality
-Indefinite Causal order used to improve metrology with continuous variable system https://www.nature.com/articles/s41567-023-02046-y 
-Indefinite causal order: wasn’t it just a relaxation of the quantum channel between two parties, of-course it could violated some CHSH like inequality (ref Porf Xin Wang’s course) 
-Def Indefinite Causal Order: If you cannot represent the process of two parties as a probabilitistic combination of two processes in one where A happens before B and the other otherwise. 
-What is the boundary of violation of all possible experiment and all possible order…. 
-Quantum mechanics + causal order violates some inequality but not maximal (algebraically) 
+
+== Picture
+
+#figure(image("pics/IMG20240819094006.jpg"))
+#figure(image("pics/IMG20240819094104.jpg"))
+#figure(image("pics/IMG20240819094219.jpg"))
+#figure(image("pics/IMG20240819094243.jpg"))
+#figure(image("pics/IMG20240819095319.jpg"))
+#figure(image("pics/IMG20240819095414.jpg"))
+#figure(image("pics/IMG20240819095632.jpg"))
+
+== Notes 
+- Indefinite Causal order used to improve metrology with continuous variable system https://www.nature.com/articles/s41567-023-02046-y 
+- Indefinite causal order: wasn’t it just a relaxation of the quantum channel between two parties, of-course it could violated some CHSH like inequality (ref Porf Xin Wang’s course) 
+- Def Indefinite Causal Order: If you cannot represent the process of two parties as a probabilitistic combination of two processes in one where A happens before B and the other otherwise. 
+- What is the boundary of violation of all possible experiment and all possible order…. 
+- Quantum mechanics + causal order violates some inequality but not maximal (algebraically) 
 
 = Constant-Overhead Fault-Tolerant Quantum Computing With Reconfigurable Atom Arrays
 
