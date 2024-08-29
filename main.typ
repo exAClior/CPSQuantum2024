@@ -1,7 +1,7 @@
 #import "@preview/touying:0.4.2": *
-#import "@preview/touying-buaa:0.1.0" as buaa-theme
+#import "@preview/touying-simpl-hkustgz:0.1.0" as hkustgz-theme
 
-#let s = buaa-theme.register()
+#let s = hkustgz-theme.register()
 
 // Global information configuration
 #let s = (s.methods.info)(
